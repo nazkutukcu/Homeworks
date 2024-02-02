@@ -1,4 +1,4 @@
-Tablolar, sütunlar ve veritabanı işlemleri gibi veritabanı yönetimi için Microsoft SQL Server'da kullanılan birçok veri türü bulunmaktadır. İşte bazı yaygın SQL Server veri tipleri ve detayları:
+Tablolar, sütunlar ve veritabanı işlemleri gibi veritabanı yönetimi için Microsoft SQL Server'da kullanılan birçok veri türü bulunmaktadır. Yaygın SQL Server veri tipleri ve detayları:
 
 1)INT: Tamsayı değerleri için kullanılır. Örneğin: 1, 2, 100, -5, vb.
 
