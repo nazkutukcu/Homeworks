@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Homeworks\\Homework1\\LinqExampleConsoleApp\\LinqExampleConsoleApp.csproj",
+      "projectUniqueName": "D:\\githubprojeyükleme\\Homework1\\LinqExampleConsoleApp\\LinqExampleConsoleApp.csproj",
       "projectName": "LinqExampleConsoleApp",
-      "projectPath": "D:\\Homeworks\\Homework1\\LinqExampleConsoleApp\\LinqExampleConsoleApp.csproj",
+      "projectPath": "D:\\githubprojeyükleme\\Homework1\\LinqExampleConsoleApp\\LinqExampleConsoleApp.csproj",
       "packagesPath": "C:\\Users\\naz\\.nuget\\packages\\",
-      "outputPath": "D:\\Homeworks\\Homework1\\LinqExampleConsoleApp\\obj\\",
+      "outputPath": "D:\\githubprojeyükleme\\Homework1\\LinqExampleConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
