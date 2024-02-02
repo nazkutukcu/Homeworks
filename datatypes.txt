@@ -1,0 +1,103 @@
+Tablolar, sütunlar ve veritabanı işlemleri gibi veritabanı yönetimi için Microsoft SQL Server'da kullanılan birçok veri türü bulunmaktadır. İşte bazı yaygın SQL Server veri tipleri ve detayları:
+
+1)INT: Tamsayı değerleri için kullanılır. Örneğin: 1, 2, 100, -5, vb.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn INT
+);
+
+2)VARCHAR(n): Değişken uzunluktaki karakter dizileri için kullanılır. "n" maksimum karakter sayısını belirtir.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn VARCHAR(50)
+);
+
+3)DECIMAL(p, s): Hassas ondalık sayılar için kullanılır. "p", toplam basamak sayısını ve "s", ondalık basamak sayısını belirtir.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn DECIMAL(10, 2)
+);
+
+4)DATETIME: Tarih ve saat değerlerini saklamak için kullanılır.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn DATETIME
+);
+
+5)BIT: Boolean değerleri temsil etmek için kullanılır. 0 veya 1 değerlerini alabilir.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn BIT
+);
+
+6)NVARCHAR(n): Değişken uzunluktaki Unicode karakter dizileri için kullanılır. "n" maksimum karakter sayısını belirtir.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn NVARCHAR(100)
+);
+
+7)FLOAT(n): Ondalık sayıları temsil etmek için kullanılır.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn FLOAT
+);
+
+8)BLOB: Büyük veri nesnelerini (Binary Large Object) saklamak için kullanılır. Örneğin, resim dosyaları, video dosyaları, vb.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn BLOB
+);
+
+9)BIGINT: Büyük tamsayı değerlerini saklamak için kullanılır. 8 byte yer kaplar.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn BIGINT
+);
+
+10)SMALLINT: Küçük tamsayı değerlerini saklamak için kullanılır. 2 byte yer kaplar.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn SMALLINT
+);
+
+11)REAL: Tek duyarlıklı kayan nokta sayılarını saklamak için kullanılır. 4 byte yer kaplar.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn REAL
+);
+
+12)NUMERIC(p, s): Hassas ondalık sayıları saklamak için kullanılır. "p", toplam basamak sayısını ve "s", ondalık basamak sayısını belirtir.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn NUMERIC(8, 4)
+);
+
+13)CHAR(n): Sabit uzunluktaki karakter dizilerini saklamak için kullanılır. "n" belirli bir sayıda karakteri temsil eder.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn CHAR(10)
+);
+
+14)NCHAR(n): Sabit uzunluktaki Unicode karakter dizilerini saklamak için kullanılır. "n" belirli bir sayıda karakteri temsil eder.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn NCHAR(20)
+);
+
+15)TEXT: Büyük metin verilerini saklamak için kullanılır. 2 GB'a kadar veri depolayabilir.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn TEXT
+);
+
+16)DATE: Sadece tarih değerlerini saklamak için kullanılır.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn DATE
+);
+
+17)TIME: Sadece saat değerlerini saklamak için kullanılır.
+
+CREATE TABLE ExampleTable (
+    ExampleColumn TIME
+);
